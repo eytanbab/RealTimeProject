@@ -22,7 +22,7 @@ Functionality:
 
 - Reset password  
 
-- Remind a username (saved log in source/content/temp)
+- Remind a username (saved log in source/content/tmp)
 
 - Resend an activation code  
 
