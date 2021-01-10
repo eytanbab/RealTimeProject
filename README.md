@@ -42,5 +42,10 @@ Functionality:
 -Read terms and conditions  
 
 
-# How to run:
-git clone 
+# How to run:  
+- Download zip  
+- pip install pipenv  
+- pipenv install  
+- pipenv shell  
+
+python source/manage.py runserver  
