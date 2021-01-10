@@ -14,7 +14,7 @@ Functionality:
   - via username & password  
   - via email & password  
   - via email or username & password  
-  - Create an account  
+- Create an account  
 
 - Log out  
 
