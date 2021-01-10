@@ -22,9 +22,10 @@ Functionality:
 
 -Reset password  
 
--Remind a username  
+-Remind a username (saved log in source/content/temp)
 
 -Resend an activation code  
+
 
 -Change password  
 
