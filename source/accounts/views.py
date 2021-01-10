@@ -39,6 +39,7 @@ class GuestOnlyView(View):
         return super().dispatch(request, *args, **kwargs)
 
 
+
 class LogInView(GuestOnlyView, FormView):
     template_name = 'accounts/log_in.html'
 
@@ -329,3 +330,15 @@ class RestorePasswordDoneView(BasePasswordResetDoneView):
 
 class LogOutView(LoginRequiredMixin, BaseLogoutView):
     template_name = 'accounts/log_out.html'
+
+
+
+
+
+
+
+
+
+
+
+

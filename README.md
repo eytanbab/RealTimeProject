@@ -1,78 +1,41 @@
-# Simple Django Login and Registration
+##Welcome to REAL TIME!
+To access the admin page:  
+User Name: admin  
+password: 123456  
 
-An example of Django project with basic user functionality.
+known bugs to be fixed:  
+-Star rating doesn't work (can only view the rating of the store).  
+-Managers can't edit their store to post sales.  
+-Admins can't post updated information.  
 
-## Screenshots
+Functionality:  
+-Log in  
 
-| Log In | Create an account | Authorized page |
-| -------|--------------|-----------------|
-| <img src="./screenshots/login.png" width="200"> | <img src="./screenshots/create_an_account.png" width="200"> | <img src="./screenshots/authorized_page.png" width="200"> |
+-via username & password  
+-via email & password  
+-via email or username & password  
+-Create an account  
 
-| Password reset | Set new password | Password change |
-| ---------------|------------------|-----------------|
-| <img src="./screenshots/password_reset.png" width="200"> | <img src="./screenshots/set_new_password.png" width="200"> | <img src="./screenshots/password_change.png" width="200"> |
+-Log out  
 
-## Functionality
+-Profile activation via email (optional)  
 
-- Log in
-    - via username & password
-    - via email & password
-    - via email or username & password
-    - with a remember me checkbox (optional)
-- Create an account
-- Log out
-- Profile activation via email
-- Reset password
-- Remind a username
-- Resend an activation code
-- Change password
-- Change email
-- Change profile
-- Multilingual: English, Russian, and Simplified Chinese
+-Reset password  
 
+-Remind a username  
 
-## Installing
+-Resend an activation code  
 
-### Clone the project
+-Change password  
 
-```
-git clone https://github.com/egorsmkv/simple-django-login-and-register
-cd simple-django-login-and-register
-```
+-Change profile  
 
-### Install dependencies & activate virtualenv
+-Multilingual: English and Hebrew  
 
-```
-pip install pipenv
+-Check stores opening hours  
 
-pipenv install
-pipenv shell
-```
+-Check stores costumers amount  
 
-### Configure the settings (connection to the database, connection to an SMTP server, and other options)
+-Check stores rating  
 
-1. Edit `source/app/conf/development/settings.py` if you want to develop the project.
-
-2. Edit `source/app/conf/production/settings.py` if you want to run the project in production.
-
-### Apply migrations
-
-```
-python source/manage.py migrate
-```
-
-### Collect static files (only on a production server)
-
-```
-python source/manage.py collectstatic
-```
-
-### Running
-
-#### A development server
-
-Just run this command:
-
-```
-python source/manage.py runserver
-```
+-Read terms and conditions  

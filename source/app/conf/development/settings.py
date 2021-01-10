@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'star_ratings',
 
     # Vendor apps
     'bootstrap4',
@@ -58,6 +59,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+
             ],
         },
     },
@@ -92,10 +95,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-ENABLE_USER_ACTIVATION = True
+ENABLE_USER_ACTIVATION = False
 DISABLE_USERNAME = False
-LOGIN_VIA_EMAIL = True
-LOGIN_VIA_EMAIL_OR_USERNAME = False
+LOGIN_VIA_EMAIL = False
+LOGIN_VIA_EMAIL_OR_USERNAME = True
 LOGIN_REDIRECT_URL = 'index'
 LOGIN_URL = 'accounts:log_in'
 USE_REMEMBER_ME = True
@@ -114,12 +117,11 @@ USE_L10N = True
 LANGUAGE_CODE = 'en'
 LANGUAGES = [
     ('en', _('English')),
-    ('ru', _('Russian')),
-    ('zh-Hans', _('Simplified Chinese')),
+    ('he', _('Hebrew')),
 ]
 
 TIME_ZONE = 'UTC'
-USE_TZ = True
+USE_TZ = False
 
 STATIC_ROOT = os.path.join(CONTENT_DIR, 'static')
 STATIC_URL = '/static/'
