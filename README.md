@@ -9,37 +9,37 @@ known bugs to be fixed:
 -Admins can't post updated information.  
 
 Functionality:  
--Log in  
+- Log in  
 
--via username & password  
--via email & password  
--via email or username & password  
--Create an account  
+ - via username & password  
+ - via email & password  
+ - via email or username & password  
+ - Create an account  
 
--Log out  
+- Log out  
 
--Profile activation via email (optional)  
+- Profile activation via email (optional)  
 
--Reset password  
+- Reset password  
 
--Remind a username (saved log in source/content/temp)
+- Remind a username (saved log in source/content/temp)
 
--Resend an activation code  
+- Resend an activation code  
 
 
--Change password  
+- Change password  
 
--Change profile  
+- Change profile  
 
--Multilingual: English and Hebrew  
+- Multilingual: English and Hebrew  
 
--Check stores opening hours  
+- Check stores opening hours  
 
--Check stores costumers amount  
+- Check stores costumers amount  
 
--Check stores rating  
+- Check stores rating  
 
--Read terms and conditions  
+- Read terms and conditions  
 
 
 # How to run:  
