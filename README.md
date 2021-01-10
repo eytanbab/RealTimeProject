@@ -47,5 +47,4 @@ Functionality:
 - pip install pipenv  
 - pipenv install  
 - pipenv shell  
-
-python source/manage.py runserver  
+- python source/manage.py runserver   
